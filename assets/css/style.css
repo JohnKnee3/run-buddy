@@ -66,3 +66,8 @@ footer div {
     line-height: 1.5;
     text-align: right;
 }
+
+section {
+    padding: 60px;
+    background-image: url("../images/hero-bg.jpg");
+}
