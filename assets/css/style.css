@@ -391,25 +391,25 @@ section {
   .hero-cta, .hero-form {
     width: 100%;
   }
-
+  
   .hero-cta {
     text-align: center;
   }
- 
+
   .section-title {
     width: 80%;
   }
-
+  
   .trainer {
     flex: 0 70%;
   }
-
-  .contact-info iframe {
+  
+  .contact-info iframe{
     flex: 1 100%;
   }
 }
 
-/* MEDIA QUERY FOR 768px AND SMALLER*/
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
 @media screen and (max-width: 768px) {
   section {
     padding: 30px 15px;
@@ -434,13 +434,12 @@ section {
   }
 
   .step-text {
-    flex: 100%;
+    flex: 100%;  
   }
 }
 
-/* MEDIA QUERY FOR 575px AND SMALLER*/
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 @media screen and (max-width: 575px) {
-
   .hero-form button {
     width: 100%;
   }
@@ -454,7 +453,7 @@ section {
   }
 
   .trainer {
-    flex:  0 100%;
+    flex: 0 100%;
   }
 
   .contact-info {
@@ -462,15 +461,10 @@ section {
   }
 
   .contact-info > * {
-    flex:  0 100%;
+    flex: 0 100%;
   }
 
   .contact-form {
     order: 3;
   }
-
 }
-
-
-
-
